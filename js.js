@@ -98,13 +98,16 @@ notesgrid.addEventListener('click',(e)=>{
         check.style.backgroundImage = 'url(./completed.png)';
         // alert(34);
         checked=true;
-        noteElement.style.opacity='.6   '
+        noteElement.style.opacity='.6 ';
+               updateStr();
+
 
         }
         else{
             check.style.backgroundImage ='url(./uncheck.png)';
             checked=false;
-            noteElement.style.opacity='1   '
+            noteElement.style.opacity='1   ';
+               updateStr();
 
 
         }
